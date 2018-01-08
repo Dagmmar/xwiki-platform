@@ -93,13 +93,26 @@
         <name>columns</name>
         <number>3</number>
         <picker>0</picker>
-        <prettyName>Columns</prettyName>
+        <prettyName>Live Table Columns</prettyName>
         <size>30</size>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </columns>
+      <dataSpace>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dataSpace</name>
+        <number>4</number>
+        <picker>0</picker>
+        <prettyName>Data Location</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dataSpace>
       <description>
         <customDisplay/>
         <disabled>0</disabled>
@@ -116,10 +129,6 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </description>
     </class>
-    <name>Menu.WebHome</name>
-    <number>0</number>
-    <className>AppWithinMinutes.LiveTableClass</className>
-    <guid>0168db3f-33fe-45e4-9a6d-ce31e6e5f66b</guid>
     <property>
       <class>Menu.MenuClass</class>
     </property>
@@ -163,6 +172,10 @@
     </property>
   </object>
   <object>
+    <name>Menu.WebHome</name>
+    <number>0</number>
+    <className>XWiki.UIExtensionClass</className>
+    <guid>48fd1b94-6ee0-4c5b-84de-ea66caefd5ca</guid>
     <class>
       <name>XWiki.UIExtensionClass</name>
       <customClass/>
@@ -174,6 +187,7 @@
       <validationScript/>
       <content>
         <disabled>0</disabled>
+        <editor>Text</editor>
         <name>content</name>
         <number>3</number>
         <prettyName>Extension Content</prettyName>
@@ -201,7 +215,9 @@
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </name>
       <parameters>
+        <contenttype>PureText</contenttype>
         <disabled>0</disabled>
+        <editor>PureText</editor>
         <name>parameters</name>
         <number>4</number>
         <prettyName>Extension Parameters</prettyName>
@@ -220,17 +236,13 @@
         <prettyName>Extension Scope</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>wiki=Current Wiki|user=Current User|global=Global</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </scope>
     </class>
-    <name>Menu.WebHome</name>
-    <number>0</number>
-    <className>XWiki.UIExtensionClass</className>
-    <guid>48fd1b94-6ee0-4c5b-84de-ea66caefd5ca</guid>
     <property>
       <content/>
     </property>

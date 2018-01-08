@@ -63,6 +63,10 @@
     </content1>
   </class>
   <object>
+    <name>Menu.MenuClass</name>
+    <number>0</number>
+    <className>XWiki.ClassSheetBinding</className>
+    <guid>6d7a482d-e7ef-41ef-92ed-94bc28cc3c55</guid>
     <class>
       <name>XWiki.ClassSheetBinding</name>
       <customClass/>
@@ -86,15 +90,15 @@
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </sheet>
     </class>
-    <name>Menu.MenuClass</name>
-    <number>0</number>
-    <className>XWiki.ClassSheetBinding</className>
-    <guid>6d7a482d-e7ef-41ef-92ed-94bc28cc3c55</guid>
     <property>
       <sheet>MenuSheet</sheet>
     </property>
   </object>
   <object>
+    <name>Menu.MenuClass</name>
+    <number>0</number>
+    <className>XWiki.DocumentSheetBinding</className>
+    <guid>352a8df0-0157-4a00-83e5-9b0c363df5e3</guid>
     <class>
       <name>XWiki.DocumentSheetBinding</name>
       <customClass/>
@@ -118,15 +122,15 @@
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </sheet>
     </class>
-    <name>Menu.MenuClass</name>
-    <number>0</number>
-    <className>XWiki.DocumentSheetBinding</className>
-    <guid>352a8df0-0157-4a00-83e5-9b0c363df5e3</guid>
     <property>
       <sheet>AppWithinMinutes.ClassEditSheet</sheet>
     </property>
   </object>
   <object>
+    <name>Menu.MenuClass</name>
+    <number>1</number>
+    <className>XWiki.DocumentSheetBinding</className>
+    <guid>32556dd3-e966-4d47-959f-591d48b4a28e</guid>
     <class>
       <name>XWiki.DocumentSheetBinding</name>
       <customClass/>
@@ -150,13 +154,8 @@
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </sheet>
     </class>
-    <name>Menu.MenuClass</name>
-    <number>1</number>
-    <className>XWiki.DocumentSheetBinding</className>
-    <guid>32556dd3-e966-4d47-959f-591d48b4a28e</guid>
     <property>
       <sheet>XWiki.ClassSheet</sheet>
     </property>
   </object>
-  <content/>
 </xwikidoc>

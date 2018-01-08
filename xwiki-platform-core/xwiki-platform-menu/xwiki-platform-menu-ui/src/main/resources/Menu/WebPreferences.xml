@@ -110,10 +110,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Menu.WebPreferences</name>
-    <number>0</number>
-    <className>XWiki.XWikiGlobalRights</className>
-    <guid>3ad0159c-2753-4580-be5c-4c36b94fb3af</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -124,5 +120,4 @@
       <users>xwiki:XWiki.Admin</users>
     </property>
   </object>
-  <content/>
 </xwikidoc>

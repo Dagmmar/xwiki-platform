@@ -79,12 +79,12 @@
         <classType>com.xpn.xwiki.objects.classes.ComputedFieldClass</classType>
       </content1>
     </class>
-    <name>Menu.MenuTemplate</name>
-    <number>0</number>
-    <className>Menu.MenuClass</className>
-    <guid>c81bdc72-55eb-422c-a776-c89bf3867410</guid>
   </object>
   <object>
+    <name>Menu.MenuTemplate</name>
+    <number>0</number>
+    <className>XWiki.UIExtensionClass</className>
+    <guid>7b09dc0c-66d8-4ae7-91b9-fca3a0745685</guid>
     <class>
       <name>XWiki.UIExtensionClass</name>
       <customClass/>
@@ -96,6 +96,7 @@
       <validationScript/>
       <content>
         <disabled>0</disabled>
+        <editor>Text</editor>
         <name>content</name>
         <number>3</number>
         <prettyName>Extension Content</prettyName>
@@ -123,7 +124,9 @@
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </name>
       <parameters>
+        <contenttype>PureText</contenttype>
         <disabled>0</disabled>
+        <editor>PureText</editor>
         <name>parameters</name>
         <number>4</number>
         <prettyName>Extension Parameters</prettyName>
@@ -142,17 +145,13 @@
         <prettyName>Extension Scope</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>wiki=Current Wiki|user=Current User|global=Global</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </scope>
     </class>
-    <name>Menu.MenuTemplate</name>
-    <number>0</number>
-    <className>XWiki.UIExtensionClass</className>
-    <guid>7b09dc0c-66d8-4ae7-91b9-fca3a0745685</guid>
     <property>
       <content/>
     </property>
